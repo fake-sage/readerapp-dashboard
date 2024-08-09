@@ -40,9 +40,9 @@ function SecondScreen() {
               <div className="flex justify-between items-center">
                 <div>
                   <h5 className="font-semibold">Password Change</h5>
-                  <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
+                  <p className="text-gray-500">Update your password to keep your account secure and private.</p>
                 </div>
-                <input type="checkbox" className="toggle-checkbox" />
+                
               </div>
             </div>
           </div>

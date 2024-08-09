@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <div className="w-64 h-screen bg-white border-r">
       <div className="p-6">
-        <h1 className="text-lg font-bold mb-10">Logo</h1>
+        <h1 className="text-lg font-bold mb-10">READERAPP</h1>
         <ul className="space-y-8">
           <li className="flex items-center space-x-3 text-gray-500 hover:text-black">
             <span>🏠</span>

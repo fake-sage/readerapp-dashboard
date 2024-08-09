@@ -4,7 +4,7 @@ const Security = () => {
   return (
     <div className="p-8">
       <h3 className="text-2xl font-bold mb-2">Security</h3>
-      <p className="text-gray-500 mb-8">Lorem ipsum dolor sit amet</p>
+      <p className="text-gray-500 mb-8">Enhance your account protection and manage your security settings.</p>
 
       <div className="space-y-8">
         <div>
@@ -13,21 +13,21 @@ const Security = () => {
             <div className="flex justify-between items-center">
               <div>
                 <h5 className="font-semibold">Login Two-Step Verification</h5>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
+                <p className="text-gray-500">Enable an extra layer of security by requiring a verification code at login.</p>
               </div>
               <input type="checkbox" className="toggle-checkbox" />
             </div>
             <div className="flex justify-between items-center">
               <div>
                 <h5 className="font-semibold">Email Setup</h5>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
+                <p className="text-gray-500">Configure your email preferences and manage notifications.</p>
               </div>
               <input type="checkbox" className="toggle-checkbox" defaultChecked />
             </div>
             <div className="flex justify-between items-center">
               <div>
                 <h5 className="font-semibold">SMS Setup</h5>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
+                <p className="text-gray-500">Set up your phone number to receive important alerts and verification codes via SMS.</p>
               </div>
               <input type="checkbox" className="toggle-checkbox" disabled />
             </div>
@@ -39,9 +39,9 @@ const Security = () => {
           <div className="flex justify-between items-center">
             <div>
               <h5 className="font-semibold">Password change</h5>
-              <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
+              <p className="text-gray-500">Update your password to keep your account secure and private.</p>
             </div>
-            <input type="checkbox" className="toggle-checkbox" />
+           
           </div>
         </div>
       </div>

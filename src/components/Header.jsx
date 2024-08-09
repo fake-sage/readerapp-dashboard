@@ -5,7 +5,7 @@ const Header = () => {
     <div className="flex justify-between items-center p-4 border-b bg-white">
       <div>
         <h2 className="text-xl font-semibold">Settings</h2>
-        <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
+        <p className="text-gray-500">Adjust your preferences, manage account details, and customize your experience</p>
       </div>
       <div className="flex items-center space-x-4">
         <input
