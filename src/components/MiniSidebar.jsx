@@ -9,7 +9,7 @@ const MiniSidebar = () => {
           <span className="text-sm">Preferences</span>
         </div>
         <div className="flex flex-col items-center space-y-2 text-black font-bold">
-          <span className="text-2xl">✅</span>
+          <span className="text-2xl">🛡️</span>
           <span className="text-sm">Security</span>
         </div>
         <div className="flex flex-col items-center space-y-2">
