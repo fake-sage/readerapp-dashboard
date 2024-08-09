@@ -10,21 +10,21 @@ const Security = () => {
         <div>
           <h4 className="font-semibold border-b pb-2 mb-4">Password Management</h4>
           <div className="space-y-4">
-            <div className="flex justify-between">
+            <div className="flex justify-between items-center">
               <div>
                 <h5 className="font-semibold">Login Two-Step Verification</h5>
                 <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
               </div>
               <input type="checkbox" className="toggle-checkbox" />
             </div>
-            <div className="flex justify-between">
+            <div className="flex justify-between items-center">
               <div>
                 <h5 className="font-semibold">Email Setup</h5>
                 <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
               </div>
               <input type="checkbox" className="toggle-checkbox" />
             </div>
-            <div className="flex justify-between">
+            <div className="flex justify-between items-center">
               <div>
                 <h5 className="font-semibold">SMS Setup</h5>
                 <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
@@ -36,7 +36,7 @@ const Security = () => {
 
         <div>
           <h4 className="font-semibold border-b pb-2 mb-4">Password Security</h4>
-          <div className="flex justify-between">
+          <div className="flex justify-between items-center">
             <div>
               <h5 className="font-semibold">Password Change</h5>
               <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
