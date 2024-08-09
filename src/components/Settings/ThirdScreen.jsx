@@ -22,7 +22,7 @@ function ThirdScreen() {
                 <div className="flex justify-between">
                   <div>
                     <h5 className="font-semibold">Email Setup</h5>
-                    <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
+                    <p className="text-gray-500">Configure your email preferences and manage notifications.</p>
                   </div>
                   <input type="checkbox" className="toggle-checkbox" />
                 </div>
