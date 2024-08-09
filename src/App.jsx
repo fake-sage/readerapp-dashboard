@@ -1,19 +1,26 @@
-import React from 'react';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
-import Security from './components/Settings/Security';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
+import Header from "./components/Header";
+import Security from "./components/Settings/Security";
+import SecondScreen from "./components/Settings/SecondScreen";
+import ThirdScreen from "./components/Settings/ThirdScreen";
 
 function App() {
   return (
-    <div className="flex">
-      <Sidebar />
-      <div className="flex-1 flex flex-col">
-        <Header />
-        <main className="p-6 bg-gray-50 min-h-screen">
-          <Security />
-        </main>
+    <Router>
+      <div className="flex">
+        <Sidebar />
+        <div className="flex-grow">
+          <Header />
+          <Routes>
+            <Route path="/" element={<Security />} />
+            <Route path="/second" element={<SecondScreen />} />
+            <Route path="/third" element={<ThirdScreen />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
