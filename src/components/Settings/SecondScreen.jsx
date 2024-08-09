@@ -5,7 +5,7 @@ function SecondScreen() {
   return (
         <div className="p-6">
           <h3 className="text-2xl font-bold mb-2">Security</h3>
-          <p className="text-gray-500 mb-4">Lorem ipsum dolor sit amet</p>
+          <p className="text-gray-500 mb-4">Enhance your account protection and manage your security settings.</p>
     
           <div className="space-y-6">
             <div>
@@ -14,7 +14,7 @@ function SecondScreen() {
                 <div className="flex justify-between items-center">
                   <div>
                     <h5 className="font-semibold">Login Two-Step Verification</h5>
-                    <p className="text-gray-500">Lorem ipsum dolor sit amet</p>
+                    <p className="text-gray-500">Enable an extra layer of security by requiring a verification code at login.</p>
                   </div>
                   <input type="checkbox" className="toggle-checkbox" />
                 </div>
